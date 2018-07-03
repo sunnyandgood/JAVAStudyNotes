@@ -1,3 +1,4 @@
+<div align="center"><img src="https://github.com/sunnyandgood/JAVAStudyNotes/blob/master/img/JAVA%E5%B1%82%E6%AC%A1%E5%9B%BE.png"/></div>
 * **JAVA分三类**
  1. Java SE：Java Standard Edition(J2SE)
  2. Java ME: Java Mobile Edition(J2ME)
