@@ -1,4 +1,4 @@
-# 01、认识JAVA
+# 第一节、认识JAVA
 
 <div align="center"><img src="https://github.com/sunnyandgood/JAVAStudyNotes/blob/master/img/JAVA%E5%B1%82%E6%AC%A1%E5%9B%BE.png"/></div>
 
