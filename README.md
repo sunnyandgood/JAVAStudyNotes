@@ -27,7 +27,9 @@ JAVA学习笔记
      * [4.2String类](./4.2String类.md)
      * [4.3StringBuffer类](./4.3StringBuffer类.md)
      * [4.4包装类](./4.4包装类.md)
-     * [4.5数组(Array)](./4.5数组(Array).md)
+
+* 第五章、集合
+     * [5.1数组(Array)](./5.1数组(Array).md)
 
 
      
