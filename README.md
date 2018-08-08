@@ -1,4 +1,38 @@
 JAVA学习笔记
 =================
-* [认识JAVA](https://github.com/sunnyandgood/JAVAStudyNotes/blob/master/01%E3%80%81%E8%AE%A4%E8%AF%86JAVA.md)
-* [原生数据类型](https://github.com/sunnyandgood/JAVAStudyNotes/blob/master/02%E3%80%81%E5%8E%9F%E7%94%9F%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.md)
+* 第一章、JAVA 的基本程序设计结构
+
+    * [1.1认识JAVA](./1.1认识JAVA.md)
+    * [1.2原生数据类型](./1.2原生数据类型.md)
+    * [1.3运算符(Operator)](./1.3运算符(Operator).md)
+    * [1.4流程控制语句](./1.4流程控制语句.md)
+    * [1.5命名规则](./1.5命名规则.md)
+    
+* 第二章、面向对象    
+    
+    * [2.1面向对象](./2.1面向对象.md)
+    * [2.2面向对象之封装(Encapsulation)](./2.2面向对象之封装.md)
+    * [2.3面向对象之继承(Inheritence)](./2.3面向对象之继承.md)
+    * [2.4面向对象之多态(Polymorphism)](./2.4面向对象之多态.md)
+    
+* 第三章、一些零散的知识
+     
+     * [3.1Java中的关键字](./3.1Java中的关键字.md)
+     * [3.2导包](./3.2导包.md)
+     * [3.3访问修饰符](./3.3访问修饰符.md)
+     
+* 第四章、API学习
+      
+     * [4.1Object类](./4.1Object类.md) 
+     * [4.2String类](./4.2String类.md)
+     * [4.3StringBuffer类](./4.3StringBuffer类.md)
+     * [4.4包装类](./4.4包装类.md)
+
+* 第五章、集合
+     * [5.1数组(Array)](./5.1数组(Array).md)
+
+
+     
+     
+     
+
