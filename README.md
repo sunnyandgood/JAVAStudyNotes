@@ -20,7 +20,13 @@ JAVA学习笔记
      * [3.2导包](./3.2导包.md)
      * [3.3访问修饰符](./3.3访问修饰符.md)
      
-     
+* 第四章、API学习
+      
+     * [4.1Object](./Object.,md) 
+     * [4.2String](./String.md)
+     * [4.3StringBuffer](./StringBuffer.md)
+
+
      
      
      
