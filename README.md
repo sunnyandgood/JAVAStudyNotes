@@ -52,7 +52,7 @@ JAVA学习笔记
      
 * 第七章、Swing
 
-     * [7.1图形化界面GUI(Graphical User Interface)](./7.1图形化界面GUI(Graphical User Interface).md)
+     * [7.1图形化界面GUI (Graphical User Interface) ](./7.1图形化界面GUI.md)
      
 * 第八章、I/O
 
