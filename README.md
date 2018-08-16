@@ -20,6 +20,7 @@ JAVA学习笔记
      * [3.1Java中的关键字](./3.1Java中的关键字.md)
      * [3.2导包](./3.2导包.md)
      * [3.3访问修饰符](./3.3访问修饰符.md)
+     * [3.4递归(Recursion)](./3.4递归(Recursion).md)
      
 * 第四章、API学习
       
@@ -49,6 +50,10 @@ JAVA学习笔记
      * [6.7异常(Exception)](./6.7异常(Exception).md)
      * [6.8内部类](./6.8内部类.md)
      
-     
-     
+* 第七章、Swing
 
+     * [7.1图形化界面GUI(Graphical User Interface)](./7.1图形化界面GUI(Graphical User Interface).md)
+     
+* 第八章、I/O
+
+     * [8.1 IO(输入输出)](./8.1IO(输入输出).md)
