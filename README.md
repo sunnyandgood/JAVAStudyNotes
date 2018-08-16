@@ -44,7 +44,7 @@ JAVA学习笔记
      * [6.2枚举类型](./6.2枚举类型.md)
      * [6.3静态导入](./6.3静态导入.md)
      * [6.4反射](./6.4反射.md)
-     * [6.5JAVA注解(Annotation)](./6.5JAVA注解(Annotation))
+     * [6.5JAVA注解(Annotation)](./6.5JAVA注解(Annotation).md)
      
      
      
