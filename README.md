@@ -45,6 +45,8 @@ JAVA学习笔记
      * [6.3静态导入](./6.3静态导入.md)
      * [6.4反射](./6.4反射.md)
      * [6.5JAVA注解(Annotation)](./6.5JAVA注解(Annotation).md)
+     * [6.6通过JUnit深入理解反射与注解的使用方式和与场景](./6.6通过JUnit深入理解反射与注解的使用方式和与场景.md)
+     * [6.7异常(Exception)](./6.7异常(Exception).md)
      
      
      
