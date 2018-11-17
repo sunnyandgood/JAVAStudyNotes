@@ -1,6 +1,6 @@
-<h1 align="center">2.1 安装JAVA开发工具包</h1>
+<h1 align="center">第二章JAVA程序设计环境</h1>
 
-## 2.1.1 下载JDK
+## 2.1 安装 Java 开发工具包
 
 ###  Java 术语 
 * **JDK**（Java SE开发包，Java Development Kit） ：编写Java 程序的程序员使用的软件；**它包含虚拟机，包含编译器**。
@@ -16,4 +16,26 @@
 * u（Update）：Oracle 的术语， 表示 bug 修正版本
 * NetBeans：Oracle 的集成开发环境
 
+## 2.2使用命令行工具
+
+### JAVA程序的执行过程（以Test.java为例）
+* 编译 编译命令：javac Test.java
+* 执行 执行命令：java Test（注意，Test后面没有.class）
+
+### 编译java程序的其他方式
+
+* `javac -d . -encoding UTF-8 Test.java` （注意：`-d`和点号之间有空格）
+
+  >解释：
+
 `jar cvfm RoadApplet.jar RoadApplet.mf *.dass `：打包
+
+## 2.3使用集成开发环境
+
+* Eclipse
+* NetBeans
+* IntelliJ IDEA 
+
+## 2.4运行图形化应用程序
+
+## 2.5构建并运行 applet
