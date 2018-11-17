@@ -40,10 +40,10 @@
 
 <table>
    <tr>
-      <td>时间</td>
+      <td width="150px">时间</td>
       <td>版本</td>
       <td>语言新特性 </td>
-      <td>类与接口的数量</td>
+      <td width="150px">类与接口的数量</td>
    </tr>
    <tr>
       <td>1991年</td>
