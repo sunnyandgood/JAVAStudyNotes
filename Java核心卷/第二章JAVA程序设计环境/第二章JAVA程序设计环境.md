@@ -2,7 +2,7 @@
 
 ## 2.1 安装 Java 开发工具包
 
-###  Java 术语 
+###  一、Java 术语 
 * **JDK**（Java SE开发包，Java Development Kit） ：编写Java 程序的程序员使用的软件；**它包含虚拟机，包含编译器**。
 * **JRE**（ Java 运行时环境，Java Runtime Environment）： 运行 Java 程序的用户使用的软件；**它包含虚拟机，但不包含编译器**。
 * Server JRE：在服务器上运行 Java 程序的软件 
