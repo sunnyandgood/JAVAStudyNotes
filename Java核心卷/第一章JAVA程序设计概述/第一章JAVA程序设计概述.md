@@ -71,7 +71,7 @@
    </tr>
    <tr>
       <td></td>
-      <td>Green 项目换名 —  “ First Person 公司”</td>
+      <td>Green换名“First Person公司”</td>
       <td></td>
       <td></td>
    </tr>
@@ -197,7 +197,7 @@
 
 ----------------
 
-JDK Version 1.3
+### JDK Version 1.3
 
 2000-05-08 Kestrel(红隼)
 
