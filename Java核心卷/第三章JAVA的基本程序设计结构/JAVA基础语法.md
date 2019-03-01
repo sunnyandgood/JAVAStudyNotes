@@ -67,4 +67,14 @@
 		* 首先要检查 str 不为 null。如果在一个mill值上调用方法，会出现错误。
 * 13、Java 字符串由 char 值序列组成。“char 类型”已经看到，char 数据类型是一个采用 UTF-16编码表示 Unicode码点的代码单元。大多数的常用 Unicode字符使用一个代码单元就可以表示，而辅助字符需要一对代码单元表示。
 * 14、所有字符串都属于`CharSequence `接口。
-* 15、
+* 15、由较短的字符串构建字符串时，用字符串连接的方式达到此目的效率比较低。每次连接字符串，都会构建一个新的 String 对象，既耗时，又浪费空间。使用 StringBuildei•类就可以避免这个问题的发生。
+  ```java
+  首先，构建一个空的字符串构建器：
+  StringBuilder builder = new StringBuilder();
+  当每次需要添加一部分内容时，就调用 append 方法。
+  builder.append(ch); //appends a single character
+  bui1der.append(str); //appends a string
+  在需要构建字符串时就凋用 toString方法，将可以得到一个 String 对象，其中包含了构建器中的字符序列。
+  String completedString = builder.toString();
+  ```
+* 
