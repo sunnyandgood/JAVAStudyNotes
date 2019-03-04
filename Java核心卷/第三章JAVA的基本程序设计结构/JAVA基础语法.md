@@ -97,4 +97,30 @@
   ```java
   String dir = System.getProperty("user.dir");
   ```
-* 21、
+* 21、块（即复合语句）是指由一对大括号括起来的若干条简单的 Java语句。块确定了变量的作用域。一个块可以嵌套在另一个块中。
+* 22、使用块 （有时称为复合语句）可以在 Java 程序结构中原本只能放置一条（简单）语句的地方放置多条语句。
+* 22、尽管 Java允许在 for 循环的各个部分放置任何表达式，但有一条不成文的规则：for语句的 3个部分应该对同一个计数器变量进行初始化、检测和更新。若不遵守这一规则，编写的循环常常晦涩难懂。
+* 23、使用switch语句，编译代码时可以考虑加上-Xlint:fallthrough选项，如下所示：
+  ```java
+  javac -Xlint:fallthrough Test.java
+  ```
+* 24、case标签可以是：
+	* 类型为 char、byte、short 或 int 的常量表达式。
+	* 枚举常量。
+	* 从 JavaSE7开始，case标签还可以是字符串字面量。
+* 25、break与continue
+	* 不带标签的 break语句与用于退出 switch语句的 break 语句一样，它也可以用于退出循环语句。带标签的 break语句，用于跳出多重嵌套的循环语句。
+	* continue 语句将控制转移到最内层循环的首部。带标签的 continue语句，将跳到与标签匹配的循环首部。
+* 26、Biglnteger 和 BigDecimal 这两个类可以处理包含任意长度数字序列的数值。
+	* Biglnteger 类实现了任意精度的整数运算；
+		* 使用静态的 valueOf 方法可以将普通的数值转换为大数值：
+		  ```java
+		  Biglnteger a = Biglnteger.valueOf(100);
+		  ```
+		* 遗憾的是，不能使用人们熟悉的算术运算符（如：`+`和`*`) 处理大数值。而需要使用大数值类中的 `add` 和 `multiply`方法。
+		  ```java
+		  Biglnteger c = a.add(b); // c = a + b
+		  Biglnteger d = c.nultipiy(b.add(Biglnteger.valueOf(2)));// d = c * (b + 2)
+		  ```
+	* BigDecimal 类实现了任意精度的浮点数运算。
+* 27、
