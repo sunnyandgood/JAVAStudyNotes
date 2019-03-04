@@ -183,4 +183,32 @@
   ```
 	* Java 中的 `[ ]` 运算符被预定义为检查数组边界，而且没有指针运算，即不能通过 a加
 1 得到数组的下一个元素。
-* 35、
+* 35、命令行参数
+  ```java
+  public class Message {
+    public static void main(String[] args) {
+        if (args.length == 0 || args[0].equals("-h"))
+            System.out.print("Hello,");
+        else if (args[0].equals("-g"))
+            System.out.print("Goodbye,");
+            // print the other command-line arguments
+        for (int i =1; i < args.length; i ++)
+            System.out.print(" " + args[i]);
+        System.out.println("!");
+    }
+  }
+  如果使用下面这种形式运行这个程序：
+  java Message -g cruel world
+  args数组将包含下列内容:
+  args[0]:"-g"
+  args[l]:"cruel"
+  args[2]:"world"
+  这个程序将显示下列信息:
+  Goodbye, cruel world!
+  ```
+* 36、在 Java应用程序的 main 方法中，程序名并没有存储在 args 数组中。例如：
+  ```java
+  当使用下列命令运行程序时:
+  java Message -h world
+  args[0]是“-h”，而不是“ Message”或“ java”。
+  ```
