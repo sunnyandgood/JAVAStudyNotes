@@ -123,4 +123,26 @@
 		  Biglnteger d = c.nultipiy(b.add(Biglnteger.valueOf(2)));// d = c * (b + 2)
 		  ```
 	* BigDecimal 类实现了任意精度的浮点数运算。
-* 27、
+
+  ```java
+  @Test
+    public void testBigInteger(){
+        BigInteger bigInteger = BigInteger.valueOf(2);
+        BigInteger value1 = bigInteger.add(BigInteger.valueOf(2));
+        BigInteger value2 = bigInteger.multiply(value1);
+        System.out.println(value1);//4
+        System.out.println(value2);//8
+    }
+
+    @Test
+    public void testBigDecimal(){
+        System.out.println(1.2+2.4);//3.5999999999999996
+        System.out.println(1.4+2.2);//3.6
+
+        System.out.println(BigDecimal.valueOf(1.2).add(BigDecimal.valueOf(2.4)));//3.6
+        System.out.println(BigDecimal.valueOf(1.4).add(BigDecimal.valueOf(2.2)));//3.6
+    }
+  ```
+
+* 27、与 C++ 不同，Java没有提供运算符重载功能。程序员无法重定义 `+ 和 *` 运算符，使其应用于 BigInteger 类的 add 和 multiply 运算。Java语言的设计者确实为字符串的连接重栽了 `+` 运算符，但没有重载其他的运算符，也没有给 Java程序员在自己的类中重栽运算符的机会，
+* 28、
