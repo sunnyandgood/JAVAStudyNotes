@@ -80,6 +80,22 @@
 * 16、StringBuilder 类的前身是 StringBuffer, 其效率稍有些低，但允许采用多线程的方式执行添加或删除字符的操作。如果所有字符串在一个单线程中编辑 （通常都是这样)，则应该 StringBuilder 替代它。这两个类的 API 是相同的。
 * 17、要想对文件进行读取，就需要一个用 File 对象构造一个 Scanner对象，如下所示：
   ```java
-  Scanner in=new Scanner(Paths.get("niyflle.txt"), "UTF-8");
+  Scanner in = new Scanner(Paths.get("niyflle.txt"), "UTF-8");
   ```
-* 
+* 18、要想写入文件，就需要构造一个 PrintWriter对象。在构造器中，只需要提供文件名：  
+  ```java
+  PrintWriter out = new PrintlulriterC'myfile.txt", "UTF-8");
+  如果文件不存在，创建该文件。可以像输出到 System.out—样使用 print、println 以及 printf
+命令。
+  ```
+* 19、警告：可以构造一个带有字符串参数的 Scanner, 但这个 Scanner 将字符串解释为数据，
+而不是文件名。例如，如果调用：
+  ```java
+  Scanner in = new Scannerrmyfile.txt");// ERROR?
+  这个 scanner 会将参数作为包含 10 个字符的数据：‘m’，‘y’，‘f’ 等。在这个示例中所显示的并不是人们所期望的效果。
+  ```
+* 20、使用集成开发环境，那么启动路径将由 IDE 控制。可以使用下面的调用方式找到路径的位置：
+  ```java
+  String dir = System.getProperty("user.dir");
+  ```
+* 21、
