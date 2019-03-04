@@ -165,4 +165,22 @@
 		  int[] anonymous = { 17, 19, 23, 29, 31, 37};
 		  smallPrimes = anonymous
 		  ```
-* 32、
+* 32、如果希望将一个数组的所有值拷贝到一个新的数组中去，就要使用 Arrays 类的 copyOf方法：
+  ```java
+  int[] smallPrimes = {2,3,5,7,11,13};
+  int[] luckyNumbers = smallPrimes;
+  luckyNumbers[5] = 12; // now smallPrimes[5] is also 12
+  int[] copiedLuckyNumbers = Arrays.copyOf(luckyNumbers, luckyNumbers.length);
+  ```
+* 33、数组的拷贝过程中，如果数组元素是数值型，那么多余的元素将被赋值为 0; 如果数组元素是布尔型，则将赋值为 false。相反，如果长度小于原始数组的长度，则只拷贝最前面的数据元素。
+* 34、Java数组与 C++数组在堆栈上有很大不同，但基本上与分配在堆（heap) 上的数组指针一样。
+  ```java
+  int[] a = new int[100]; // Java
+  不同于
+  int a[100]; // C++
+  而等同于
+  int* a = new int[100]; // C++
+  ```
+	* Java 中的 `[ ]` 运算符被预定义为检查数组边界，而且没有指针运算，即不能通过 a加
+1 得到数组的下一个元素。
+* 35、
