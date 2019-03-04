@@ -85,8 +85,7 @@
 * 18、要想写入文件，就需要构造一个 PrintWriter对象。在构造器中，只需要提供文件名：  
   ```java
   PrintWriter out = new PrintlulriterC'myfile.txt", "UTF-8");
-  如果文件不存在，创建该文件。可以像输出到 System.out—样使用 print、println 以及 printf
-命令。
+  如果文件不存在，创建该文件。可以像输出到 System.out—样使用 print、println 以及 printf命令。
   ```
 * 19、警告：可以构造一个带有字符串参数的 Scanner, 但这个 Scanner 将字符串解释为数据，
 而不是文件名。例如，如果调用：
