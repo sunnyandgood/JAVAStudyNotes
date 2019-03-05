@@ -212,3 +212,55 @@
   java Message -h world
   args[0]是“-h”，而不是“ Message”或“ java”。
   ```
+* 37、`Math.random`方法将返回一个 0 到 1 之间（包含 0、不包含 1) 的随机浮点数。
+* 38、多维数组（Java实际上没有多维数组，只有一维数组。多维数组被解释为“数组的数组”。）
+	* 二维数组声明：
+	  ```java
+	  double[][] balances;
+	  ```
+	* 二维数组初始化；与一维数组一样，在调用 new 对多维数组进行初始化之前不能使用它。
+	  ```java
+	  balances = new double[NYEARS][NRATES];
+	  ```
+	* 如果知道数组元素，就可以不调用 new，而直接使用简化的书写形式对多维数组进行初始化。
+	  ```java
+	  int[][] magicSquare = {
+                {16, 3, 2, 13}, 
+                { 5,10, 11, 8}, 
+                { 9, 6,  7,12}, 
+                { 4,15, 14, 1} 
+      };
+	  ```
+	* 一但数组被初始化，就可以利用两个方括号访问每个元素，例如，`balances[i][j]`。
+* 39、要想快速地打印一个二维数组的数据元素列表，可以调用：
+  ```java
+  System.out.println(Arrays.deepToString(a));
+  输出格式为：
+  [[16, B, 2, 13], [5, 10, 11, 8], [9, 6, 7, 12], [4, 15, 14, 1]]
+  ```
+* 40、表达式`balances[i]` 引用第 i 个子数组，也就是二维表的第 i 行。它本身也是一个数组，`balances[i][j]` 引用这个数组的第j 项。由于可以单独地存取数组的某一行，所以可以让两行交换。
+  ```java
+  double[] temp = balances[i]:
+  balances[i] = balances[i +1];
+  balances[i +1] = temp;
+  ```
+* 41、可以方便地构造一个“不规则” 数组，即数组的每一行有不同的长度。
+  ```java
+  int[][] odds = new int[NMAX + 1][];
+  for (int n = 0; n <= NMAX; n++)
+      odds[n] = new int[n + 1];
+  ```
+* 42、多维数组注意事项：
+  ```java
+  double[][] balances = new double[10][6];// 3ava
+  不同于
+  double balances[10][6]; // C++
+  也不同于
+  double (*balances)[6] = new double[10][6]; // C++
+  而是分配了一个包含 10 个指针的数组：
+  double** balances = new double*[10]; //C++
+  然后，指针数组的每一个元素被填充了一个包含 6 个数字的数组：
+  for (i = 0; i < 10; i++)
+     balances[i] = new double[6];
+  庆幸的是，当创建 new double[10][6] 时，这个循环将自动地执行。当需要不规则的数组时，只能单独地创建行数组。
+  ```
